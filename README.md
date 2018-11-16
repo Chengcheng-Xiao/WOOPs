@@ -10,6 +10,7 @@
 # Wannier Orbital Overlap Population tools (WOOPs)
 
 A post-processing tool written in python to get Wannier Orbital Overlap Population (WOOP), Wannier Orbital Position Population (WOPP)* from [Wannier90](https://github.com/wannier-developers/wannier90) package.
+[THIS PACKAGE IS STILL UNDER DEVELOPMENT]
 
 Before getting into doing thingg, you might want to check out these two papers:
 1.  [Phys. Rev. B 56 12847 (1997)](http://dx.doi.org/10.1039/b918890h)
@@ -88,20 +89,24 @@ cell_dim   = XX               #[cell_dim: 1D, 2D or 3D]
 | `get_charge`           | [needs `WOOP`]                             |
 | `WOPP`                 | [needs `WOOP` and `get_r_mat`]             |
 
-When everything is prepared,
-
+When everything is prepared, issue command:
+```
+./WOOPs.py
+```
+or if you put it in your path:
 ```
 WOOPs.py
 ```
+
 
 These commands will produce a copy of data stored in hdf5 format and a text file with corresponding name for the calculation.
 
 ## Running the tests
 
-Go Check the description in `example` folder.
+Go Check the description in `PbTiO3_example` folder.
 
 ## Notes
-*WOPP is still under development, the problem now I am facing is that the phase factor in Wannier90's r matrix are not "correct" (because they are arbitrary), the polarization decomposition cannot be correctly calculated.
+*WOPP is still under development, the problem now I'm facing is that the phase factor in Wannier90's r matrix are not "correct" (they are arbitrary). As a result, the ferroelectric polarization decomposition cannot be correctly calculated.
 
 ## TODO_list
 1. Complete a simplified description of WOOP and its capability.
@@ -115,15 +120,10 @@ Go Check the description in `example` folder.
 For the method please cite the following paper in any publications arising from the use of this code:
 
   J. Bhattacharjee and U. V. Waghmare,
-  *Wannier orbital overlap population (WOOP), Wannier orbital position population (WOPP) and the origin of anomalous dynamical charges*,    
-  `Phys. Chem. Chem. Phys., 2010, 12, 1564–1570`_
+  *Wannier orbital overlap population (WOOP), Wannier orbital position population (WOPP) and the origin of anomalous dynamical charges*,[Phys. Chem. Chem. Phys., 2010, 12, 1564–1570](http://dx.doi.org/10.1039/b918890h)
 
   K. Terakura, S. Ishibashi,
-  *Mechanism of covalency-induced electric polarization within the framework of maximally localized Wannier orbitals*,
-  `Phys. Rev. B 91, 195120 (2015)`_
-
-  .. _Phys. Rev. B 56 12847 (1997): http://dx.doi.org/10.1039/b918890h
-  .. _Phys. Rev. B 91, 195120 (2015): http://dx.doi.org/10.1103/PhysRevB.91.195120
+  *Mechanism of covalency-induced electric polarization within the framework of maximally localized Wannier orbitals*,[Phys. Rev. B 91, 195120 (2015)](http://dx.doi.org/10.1103/PhysRevB.91.195120)
 
 
 ## Contributing
@@ -136,13 +136,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Chengcheng XIAO** - *Initial work* - [ZJU](https://github.com/PurpleBooth)
+* **Chengcheng XIAO** - *Initial work* - [E-mail](https://github.com/PurpleBooth)
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
