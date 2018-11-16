@@ -1,0 +1,17 @@
+*######################################################*
+#                                                      #
+#                                                      #
+#                  Printing Charge                     #
+#                                                      #
+#                                                      #
+*######################################################*
+MO_number=  0 totalcharge=   1.953358
+MO_number=  1 totalcharge=   1.992546
+MO_number=  2 totalcharge=   1.979496
+MO_number=  3 totalcharge=   1.979496
+MO_number=  4 totalcharge=   1.979502
+MO_number=  5 totalcharge=   1.992492
+MO_number=  6 totalcharge=   1.979502
+MO_number=  7 totalcharge=   1.979502
+MO_number=  8 totalcharge=   1.979502
+MO_number=  9 totalcharge=   1.992492

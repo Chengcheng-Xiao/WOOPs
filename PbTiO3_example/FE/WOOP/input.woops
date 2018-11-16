@@ -1,0 +1,7 @@
+readmode = False
+cal=WOOP
+num_MO=10
+num_AO=18
+num_kpts=216
+cell_param=3.8889559 3.8889559 3.8889559
+cell_dim=3D

@@ -1,0 +1,11 @@
+# ignore generated html files,
+#UNK*
+#WAVECAR
+#CHGCAR
+Calculations
+PbTiO3_example/CENT/wannier_data/wannier_ext
+PbTiO3_example/CENT/wannier_data/wannier_val
+PbTiO3_example/FE/wannier_data/wannier_ext
+PbTiO3_example/FE/wannier_data/wannier_val
+# except foo.html which is maintained by hand
+#!foo.html
