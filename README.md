@@ -77,6 +77,7 @@ num_kpts   = XX               #[number of kpts]
 cell_param = XX XX XX         #[cell_param]
 cell_dim   = XX               #[cell_dim: 1D, 2D or 3D]
 ```
+*IMPORTANT*: Every tag must be written in lowercase, full length without abbreviation.
 
 `cal` include:
 
@@ -87,9 +88,9 @@ cell_dim   = XX               #[cell_dim: 1D, 2D or 3D]
 | `get_c_mat`            | [needs `get_AO` and `get_MO`]              |
 | `WOOP` [default]       | [needs `get_C_mat`]                        |
 | `get_charge`           | [needs `WOOP`]                             |
-| `WOPP`                 | [needs `WOOP` and `get_r_mat`]             |
+| `WOPP` [experimental]  | [needs `WOOP` and `get_r_mat`]             |
 
-When everything is prepared, issue command:
+When the input file is properly prepared:
 ```
 ./WOOPs.py
 ```
@@ -97,13 +98,14 @@ or if you put it in your path:
 ```
 WOOPs.py
 ```
+This may take a few minutes, consider submitting it to the queue system.
 
 
 These commands will produce a copy of data stored in hdf5 format and a text file with corresponding name for the calculation.
 
 ## Running the tests
 
-Go Check the description in `PbTiO3_example` folder.
+Go Check the description in `example` folder.
 
 ## Notes
 *WOPP is still under development, the problem now I'm facing is that the phase factor in Wannier90's r matrix are not "correct" (they are arbitrary). As a result, the ferroelectric polarization decomposition cannot be correctly calculated.
@@ -114,6 +116,8 @@ Go Check the description in `PbTiO3_example` folder.
 2. Fix phase factor error in WOPP interface.
 
 3. Increase efficiency.
+
+4. Add progress bar.
 
 ## How to cite
 
@@ -136,7 +140,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Chengcheng XIAO** - *Initial work* - [E-mail](https://github.com/PurpleBooth)
+* **Chengcheng XIAO** - *Initial work* - [E-mail](iconxicon@me.com)
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/Chengcheng-Xiao/WOOPs/blob/master/LICENSE.md) file for details
