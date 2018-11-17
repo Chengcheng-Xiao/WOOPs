@@ -2,6 +2,8 @@
 #UNK*
 #WAVECAR
 #CHGCAR
+**/.DS_Store
+relevant_document
 Calculations
 example/01_PbTiO3_example/CENT/wannier_data/wannier_ext
 example/01_PbTiO3_example/CENT/wannier_data/wannier_val
