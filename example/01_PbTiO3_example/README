@@ -1,16 +1,16 @@
 Examples for ferroelectric PbTiO3
 --------------------------------------------------
-The goal of this example is to use WOOP to study the origin of this FE polarization.
+The goal of this example is shwo how to use WOOPs to study the origin of this FE polarization.
 
 PbTiO3 is a typical ferroelectric (FE) material which possess a spontaneous electrical polarization.
 The spontaneous electrical polarization comes majorly from the displacement of the Ti atoms' movement
-inside a oxygen octahedron.
+inside an Oxygen octahedron.
 
 According to "The Modern Theory of Polarization", we need the dipole moment of both FE and centro-symmetric phase.
 
-The major part of the code are explained below:
+Here is a outline of what we want to do:
 
-1. DFT calculation to determine orbital contribution of valence band and conduction band.
+1. DFT calculation, you can get a rough idea of the orbital contribution of valence band and conduction band.
 
 2. Wanneir interpolation to get u matrix and r matrix:
 	(1). Valence band                       --> Molecular orbital (MO)
@@ -20,16 +20,15 @@ The major part of the code are explained below:
 
 4. Using coefficient and r matrix to get WOOP and WOPP.
 
-5. Analyze results.
 --------------------------------------------------
 To run the examples, follow the instructions below.
 
-1. Use .win files in CENT/wannier_data and FE/wannier_data to get u matrix. [ext is MO, val is AO]
+1. Use .win files in CENT/wannier_data and FE/wannier_data to get u matrix.
 	(1). Use DFT calculator such as VASP or QuantumEspresso to generate cell periodic part of the bloch wavefunction
-	     You can find crystal geometry and kpoint sampling in .win file.
-	(2). Use .win file to generate u matrix by Wannier90 package. 
+	     You can find crystal geometry and kpoint sampling scheme I used in .win file.
+	(2). Use .win file to generate u matrix and r_matrix by Wannier90 package.
 
-2. Copy u matrix of AO/MO to WOOP folder as wannier_u_AO/MO.mat. Copy wannier90_r.dat to WOOP folder.
+2. Copy u matrix of AO/MO to WOOP folder as wannier_u_AO/MO.mat. Copy wannier90_r.dat in AO folder to WOOP folder.
 
 3. Go to WOOP folder in CENT and FE folder, use WOOPs tools to generate result.
 --------------------------------------------------

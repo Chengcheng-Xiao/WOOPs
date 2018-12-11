@@ -1,0 +1,44 @@
+*######################################################*
+#                                                      #
+#                                                      #
+#                      Printing AO                     #
+#                                                      #
+#                                                      #
+*######################################################*
+*######################################################*
+kpts_num= 0 kpts= [0. 0. 0.] AO_number=  0 band_number=  0 AO= (-0.6451639475-0.0747564771j)
+kpts_num= 0 kpts= [0. 0. 0.] AO_number=  0 band_number=  1 AO= (-0.2730002632+0.0603789107j)
+kpts_num= 0 kpts= [0. 0. 0.] AO_number=  0 band_number=  2 AO= (-3.6e-09+2e-10j)
+kpts_num= 0 kpts= [0. 0. 0.] AO_number=  0 band_number=  3 AO= (0.0325655349+0.224046695j)
+kpts_num= 0 kpts= [0. 0. 0.] AO_number=  0 band_number=  4 AO= (0.6642261507-0.0868698949j)
+kpts_num= 0 kpts= [0. 0. 0.] AO_number=  0 band_number=  5 AO= (9.09e-08+1.684e-07j)
+kpts_num= 0 kpts= [0. 0. 0.] AO_number=  1 band_number=  0 AO= (2.705e-07+3.14e-08j)
+kpts_num= 0 kpts= [0. 0. 0.] AO_number=  1 band_number=  1 AO= (-1.345e-07+2.96e-08j)
+kpts_num= 0 kpts= [0. 0. 0.] AO_number=  1 band_number=  2 AO= (0.6613196345-0.0424804685j)
+kpts_num= 0 kpts= [0. 0. 0.] AO_number=  1 band_number=  3 AO= (-7e-10-5.1e-09j)
+kpts_num= 0 kpts= [0. 0. 0.] AO_number=  1 band_number=  4 AO= (-2e-09+3e-10j)
+kpts_num= 0 kpts= [0. 0. 0.] AO_number=  1 band_number=  5 AO= (0.3557336123+0.6590184731j)
+kpts_num= 0 kpts= [0. 0. 0.] AO_number=  2 band_number=  0 AO= (-0.2777241678-0.0323116569j)
+kpts_num= 0 kpts= [0. 0. 0.] AO_number=  2 band_number=  1 AO= (0.6342211169-0.1399593686j)
+kpts_num= 0 kpts= [0. 0. 0.] AO_number=  2 band_number=  2 AO= (-4.4e-09+3e-10j)
+kpts_num= 0 kpts= [0. 0. 0.] AO_number=  2 band_number=  3 AO= (0.0963146453+0.6629225045j)
+kpts_num= 0 kpts= [0. 0. 0.] AO_number=  2 band_number=  4 AO= (-0.2244911467+0.0293455389j)
+kpts_num= 0 kpts= [0. 0. 0.] AO_number=  2 band_number=  5 AO= (1.087e-07+2.015e-07j)
+kpts_num= 0 kpts= [0. 0. 0.] AO_number=  3 band_number=  0 AO= (-0.6451641971-0.0747565061j)
+kpts_num= 0 kpts= [0. 0. 0.] AO_number=  3 band_number=  1 AO= (-0.2730003689+0.060378934j)
+kpts_num= 0 kpts= [0. 0. 0.] AO_number=  3 band_number=  2 AO= (-3.2e-09+2e-10j)
+kpts_num= 0 kpts= [0. 0. 0.] AO_number=  3 band_number=  3 AO= (-0.0325655223-0.2240466083j)
+kpts_num= 0 kpts= [0. 0. 0.] AO_number=  3 band_number=  4 AO= (-0.6642258936+0.0868698613j)
+kpts_num= 0 kpts= [0. 0. 0.] AO_number=  3 band_number=  5 AO= (8.75e-08+1.622e-07j)
+kpts_num= 0 kpts= [0. 0. 0.] AO_number=  4 band_number=  0 AO= (2.483e-07+2.88e-08j)
+kpts_num= 0 kpts= [0. 0. 0.] AO_number=  4 band_number=  1 AO= (-1.235e-07+2.72e-08j)
+kpts_num= 0 kpts= [0. 0. 0.] AO_number=  4 band_number=  2 AO= (-0.7473600536+0.0480073025j)
+kpts_num= 0 kpts= [0. 0. 0.] AO_number=  4 band_number=  3 AO= (-7e-10-5.1e-09j)
+kpts_num= 0 kpts= [0. 0. 0.] AO_number=  4 band_number=  4 AO= (-2e-09+3e-10j)
+kpts_num= 0 kpts= [0. 0. 0.] AO_number=  4 band_number=  5 AO= (0.31477946+0.5831484723j)
+kpts_num= 0 kpts= [0. 0. 0.] AO_number=  5 band_number=  0 AO= (-0.2777242753-0.0323116694j)
+kpts_num= 0 kpts= [0. 0. 0.] AO_number=  5 band_number=  1 AO= (0.6342213623-0.1399594228j)
+kpts_num= 0 kpts= [0. 0. 0.] AO_number=  5 band_number=  2 AO= (-3.8e-09+2e-10j)
+kpts_num= 0 kpts= [0. 0. 0.] AO_number=  5 band_number=  3 AO= (-0.096314608-0.662922248j)
+kpts_num= 0 kpts= [0. 0. 0.] AO_number=  5 band_number=  4 AO= (0.2244910598-0.0293455275j)
+kpts_num= 0 kpts= [0. 0. 0.] AO_number=  5 band_number=  5 AO= (1.048e-07+1.941e-07j)

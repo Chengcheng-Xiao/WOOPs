@@ -12,7 +12,7 @@
 A post-processing tool written in python to get Wannier Orbital Overlap Population (WOOP), Wannier Orbital Position Population (WOPP)* from [Wannier90](https://github.com/wannier-developers/wannier90) package.
 [THIS PACKAGE IS STILL UNDER DEVELOPMENT]
 
-Before getting into doing thingg, you might want to check out these two papers:
+Before getting into things, you might want to check out these two papers:
 1.  [Phys. Rev. B 56 12847 (1997)](http://dx.doi.org/10.1039/b918890h)
 2.  [Phys. Rev. B 91, 195120 (2015)](http://dx.doi.org/10.1103/PhysRevB.91.195120)
 
@@ -75,7 +75,7 @@ num_mo     = XX               #[number of MO]
 num_ao     = XX               #[number of AO]
 num_kpts   = XX               #[number of kpts]
 cell_param = XX XX XX         #[cell_param]
-cell_dim   = XX               #[cell_dim: 1D, 2D or 3D]
+cell_dim   = XX               #[cell_dim: 0D, 1D, 2D or 3D] NOTE: currently 1D->x, 2D->xy
 ```
 *IMPORTANT*: Every tag must be written in lowercase, full length without abbreviation.
 

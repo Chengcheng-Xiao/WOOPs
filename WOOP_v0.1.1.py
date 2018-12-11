@@ -155,7 +155,7 @@ def get_r_matrix(file_name, num_wann):
                 mat_j[nrpt][i][j][1]=(float(data[nrpt*(num_wann**2)+i+num_wann*j][7])+1j*float(data[nrpt*(num_wann**2)+i+num_wann*j][8])) #y
                 mat_j[nrpt][i][j][2]=(float(data[nrpt*(num_wann**2)+i+num_wann*j][9])+1j*float(data[nrpt*(num_wann**2)+i+num_wann*j][10])) #z
     # mat_j is in mat_j[nrpt][l][m] = <ul_origin|r|um_nrpt>
-    return mat_j, R_place,nrpts
+    return mat_j, R_place, nrpts
 
 def get_WOPP(rmat, kpts,C_ij, AO_wann, MO_wann, use_nrpt, R_place, cell_dim):
 
@@ -242,6 +242,24 @@ elif cal_orb == True and readmode == True:
 ################################################################
 
 #get nearest neighbour nrpt number
+if dim == "0D":
+    nn=1
+    use_nrpt=np.zeros(1)
+    for nrpt in range(nrpts):
+        if np.all(R_place[nrpt]==[0.,0.,0.]):
+            use_nrpt[0]=nrpt
+
+if dim == "1D":
+    nn=3
+    use_nrpt=np.zeros(3)
+    for nrpt in range(nrpts):
+        if np.all(R_place[nrpt]==[0.,0.,0.]):
+            use_nrpt[0]=nrpt
+        elif np.all(R_place[nrpt]==[1.,0.,0.]):
+            use_nrpt[1]=nrpt
+        elif np.all(R_place[nrpt]==[-1.,0.,0.]):
+            use_nrpt[2]=nrpt
+
 if dim == "2D":
     nn=5
     use_nrpt=np.zeros(nn)
@@ -387,9 +405,10 @@ if cal_orb == True:
         print("#                                                      #",file=f)
         print("*######################################################*",file=f)
 
-        for i in range(number_AO):
-            for j in range(number_AO):
-                print("AO_number_i= ",i,"AO_number_j= ",j,"rmat= ", rmat[i][j],file=f)
+        for nrptt in range(nrpts):
+            for i in range(number_AO):
+                for j in range(number_AO):
+                    print("R_place= ",R_place[nrptt],"AO_number_i= ",i,"AO_number_j= ",j,"rmat= ", rmat[nrptt][i][j],file=f)
 
 if cal_comple == True:
     with open('completeness.txt', 'w') as f:
@@ -475,7 +494,7 @@ if cal_wopp == True:
         print("#                    aka WOPP                          #",file=f)
         print("#                                                      #",file=f)
         print("*######################################################*",file=f)
-    
+
         for dir in range(2):
             total_moment = 0
             for i in range(number_MO):

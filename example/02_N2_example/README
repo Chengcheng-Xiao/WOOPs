@@ -1,0 +1,38 @@
+Examples for Nitrogen molecule
+--------------------------------------------------
+The goal of this example is to use WOOP to study the bonding constitution of Nitrogen molecule.
+
+Bonding diagram:
+
+    N atom |           -           |  N atom
+           |          - -          |
+   p ---   |  Ef  ============     |   --- p
+           |           -           |
+           |          - -          |
+
+Nitrogen is an elemental molecule, this ensures the covalency of the bonding between Nitrogen atoms.
+The hybridizing p orbital can be easily categorized into one sigma bond (px) and two pi bond (pz and py).
+
+Here, utilizing the decomposition formula of WOOPs, we can easily see that the atomic contribution of p orbitals to
+the bonding molecular orbitals are equally distributed. Thus, we can define the bond order as:
+              C_pz_atom_1
+BOND_ORDER= --------------
+              C_pz_atom_1
+If BOND_ORDER = 1, then we got a perfect covalent bond.
+If BOND_ORDER = 0, then we got a perfect ionic bond.
+
+--------------------------------------------------
+To run the examples, follow the instructions below.
+
+1. Use .win files in wannier_data to get u matrix.
+	(1). Use DFT calculator such as VASP or QuantumEspresso to generate cell periodic part of the bloch wavefunction.
+	     You can find crystal geometry and kpoint sampling in .win file.
+	(2). Use .win file to generate u matrix by Wannier90 package.
+
+2. Copy u matrix of AO/MO to WOOP folder as wannier_u_AO/MO.mat. Copy wannier90_r.dat in AO folder to WOOP folder.
+
+3. run WOOPs using input.woops provided.
+--------------------------------------------------
+
+Additional:
+1. plot wanneir wavefunction and check if you can get the wannier plot in (http://dx.doi.org/10.1039/b918890h)

@@ -5,9 +5,11 @@
 **/.DS_Store
 relevant_document
 Calculations
-example/01_PbTiO3_example/CENT/wannier_data/wannier_ext
-example/01_PbTiO3_example/CENT/wannier_data/wannier_val
-example/01_PbTiO3_example/FE/wannier_data/wannier_ext
-example/01_PbTiO3_example/FE/wannier_data/wannier_val
+example/01_PbTiO3_example/CENT/wannier_data/wannier_AO
+example/01_PbTiO3_example/CENT/wannier_data/wannier_MO
+example/01_PbTiO3_example/FE/wannier_data/wannier_AO
+example/01_PbTiO3_example/FE/wannier_data/wannier_MO
+example/02_N2_example/wannier_data/wannier_AO
+example/02_N2_example/wannier_data/wannier_MO
 # except foo.html which is maintained by hand
 #!foo.html

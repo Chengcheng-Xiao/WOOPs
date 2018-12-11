@@ -1,0 +1,43 @@
+*######################################################*
+#                                                      #
+#                                                      #
+#                  Printing r_mat                      #
+#                                                      #
+#                                                      #
+*######################################################*
+R_place=  [0. 0. 0.] AO_number_i=  0 AO_number_j=  0 rmat=  [ 4.96431+0.j -5.     +0.j -5.     +0.j]
+R_place=  [0. 0. 0.] AO_number_i=  0 AO_number_j=  1 rmat=  [0.      +0.j 0.      +0.j 0.049105+0.j]
+R_place=  [0. 0. 0.] AO_number_i=  0 AO_number_j=  2 rmat=  [-0.+0.j  0.+0.j -0.+0.j]
+R_place=  [0. 0. 0.] AO_number_i=  0 AO_number_j=  3 rmat=  [-0.020243+0.j  0.      +0.j -0.      +0.j]
+R_place=  [0. 0. 0.] AO_number_i=  0 AO_number_j=  4 rmat=  [ 0.     +0.j  0.     +0.j -0.14233+0.j]
+R_place=  [0. 0. 0.] AO_number_i=  0 AO_number_j=  5 rmat=  [ 0.+0.j  0.+0.j -0.+0.j]
+R_place=  [0. 0. 0.] AO_number_i=  1 AO_number_j=  0 rmat=  [0.      +0.j 0.      +0.j 0.049105+0.j]
+R_place=  [0. 0. 0.] AO_number_i=  1 AO_number_j=  1 rmat=  [-4.451244+0.j -4.999998+0.j -4.999998+0.j]
+R_place=  [0. 0. 0.] AO_number_i=  1 AO_number_j=  2 rmat=  [0.      +0.j 0.049105+0.j 0.      +0.j]
+R_place=  [0. 0. 0.] AO_number_i=  1 AO_number_j=  3 rmat=  [ 0.      +0.j -0.      +0.j  0.049105+0.j]
+R_place=  [0. 0. 0.] AO_number_i=  1 AO_number_j=  4 rmat=  [ 1.70022e-01+0.j -1.00000e-06+0.j -1.00000e-06+0.j]
+R_place=  [0. 0. 0.] AO_number_i=  1 AO_number_j=  5 rmat=  [ 0.      +0.j  0.049105+0.j -0.      +0.j]
+R_place=  [0. 0. 0.] AO_number_i=  2 AO_number_j=  0 rmat=  [ 0.+0.j -0.+0.j  0.+0.j]
+R_place=  [0. 0. 0.] AO_number_i=  2 AO_number_j=  1 rmat=  [0.      +0.j 0.049105+0.j 0.      +0.j]
+R_place=  [0. 0. 0.] AO_number_i=  2 AO_number_j=  2 rmat=  [ 4.96431+0.j -5.     +0.j -5.     +0.j]
+R_place=  [0. 0. 0.] AO_number_i=  2 AO_number_j=  3 rmat=  [-0.+0.j -0.+0.j -0.+0.j]
+R_place=  [0. 0. 0.] AO_number_i=  2 AO_number_j=  4 rmat=  [ 0.     +0.j -0.14233+0.j  0.     +0.j]
+R_place=  [0. 0. 0.] AO_number_i=  2 AO_number_j=  5 rmat=  [-0.020243+0.j  0.      +0.j  0.      +0.j]
+R_place=  [0. 0. 0.] AO_number_i=  3 AO_number_j=  0 rmat=  [-0.020243+0.j  0.      +0.j  0.      +0.j]
+R_place=  [0. 0. 0.] AO_number_i=  3 AO_number_j=  1 rmat=  [0.      +0.j 0.      +0.j 0.049105+0.j]
+R_place=  [0. 0. 0.] AO_number_i=  3 AO_number_j=  2 rmat=  [0.+0.j 0.+0.j 0.+0.j]
+R_place=  [0. 0. 0.] AO_number_i=  3 AO_number_j=  3 rmat=  [-3.86681+0.j -5.     +0.j -5.     +0.j]
+R_place=  [0. 0. 0.] AO_number_i=  3 AO_number_j=  4 rmat=  [ 0.      +0.j  0.      +0.j -0.142331+0.j]
+R_place=  [0. 0. 0.] AO_number_i=  3 AO_number_j=  5 rmat=  [-0.+0.j -0.+0.j  0.+0.j]
+R_place=  [0. 0. 0.] AO_number_i=  4 AO_number_j=  0 rmat=  [ 0.     +0.j  0.     +0.j -0.14233+0.j]
+R_place=  [0. 0. 0.] AO_number_i=  4 AO_number_j=  1 rmat=  [ 1.70022e-01+0.j -1.00000e-06+0.j -1.00000e-06+0.j]
+R_place=  [0. 0. 0.] AO_number_i=  4 AO_number_j=  2 rmat=  [ 0.     +0.j -0.14233+0.j  0.     +0.j]
+R_place=  [0. 0. 0.] AO_number_i=  4 AO_number_j=  3 rmat=  [ 0.      +0.j -0.      +0.j -0.142331+0.j]
+R_place=  [0. 0. 0.] AO_number_i=  4 AO_number_j=  4 rmat=  [-4.451244+0.j -4.999998+0.j -4.999999+0.j]
+R_place=  [0. 0. 0.] AO_number_i=  4 AO_number_j=  5 rmat=  [ 0.      +0.j -0.142331+0.j -0.      +0.j]
+R_place=  [0. 0. 0.] AO_number_i=  5 AO_number_j=  0 rmat=  [-0.+0.j -0.+0.j  0.+0.j]
+R_place=  [0. 0. 0.] AO_number_i=  5 AO_number_j=  1 rmat=  [0.      +0.j 0.049105+0.j 0.      +0.j]
+R_place=  [0. 0. 0.] AO_number_i=  5 AO_number_j=  2 rmat=  [-0.020243+0.j -0.      +0.j  0.      +0.j]
+R_place=  [0. 0. 0.] AO_number_i=  5 AO_number_j=  3 rmat=  [ 0.+0.j  0.+0.j -0.+0.j]
+R_place=  [0. 0. 0.] AO_number_i=  5 AO_number_j=  4 rmat=  [ 0.      +0.j -0.142331+0.j  0.      +0.j]
+R_place=  [0. 0. 0.] AO_number_i=  5 AO_number_j=  5 rmat=  [-3.86681+0.j -5.     +0.j -5.     +0.j]

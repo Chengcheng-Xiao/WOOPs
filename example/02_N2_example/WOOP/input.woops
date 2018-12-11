@@ -1,0 +1,7 @@
+readmode = False
+cal=WOOP
+num_MO=3
+num_AO=6
+num_kpts=1
+cell_param=10 10 10
+cell_dim=0D
