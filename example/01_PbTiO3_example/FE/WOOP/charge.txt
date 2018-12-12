@@ -5,13 +5,13 @@
 #                                                      #
 #                                                      #
 *######################################################*
-MO_number=  0 totalcharge=   1.953145
-MO_number=  1 totalcharge=   1.991501
-MO_number=  2 totalcharge=   1.979131
-MO_number=  3 totalcharge=   1.979131
-MO_number=  4 totalcharge=   1.978738
-MO_number=  5 totalcharge=   1.991866
-MO_number=  6 totalcharge=   1.978621
-MO_number=  7 totalcharge=   1.978738
-MO_number=  8 totalcharge=   1.978621
-MO_number=  9 totalcharge=   1.991866
+MO_number=  0 | totalcharge=   1.953145
+MO_number=  1 | totalcharge=   1.991501
+MO_number=  2 | totalcharge=   1.979131
+MO_number=  3 | totalcharge=   1.979131
+MO_number=  4 | totalcharge=   1.978738
+MO_number=  5 | totalcharge=   1.991866
+MO_number=  6 | totalcharge=   1.978621
+MO_number=  7 | totalcharge=   1.978738
+MO_number=  8 | totalcharge=   1.978621
+MO_number=  9 | totalcharge=   1.991866

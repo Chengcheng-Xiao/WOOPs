@@ -6,21 +6,21 @@
 #                                                      #
 *######################################################*
 *######################################################*
-kpts_num= 0 kpts= [0. 0. 0.] MO_number=  0 band_number=  0 MO= (-0.912399781-0.1057216443j)
-kpts_num= 0 kpts= [0. 0. 0.] MO_number=  0 band_number=  1 MO= (-0.3860807495+0.0853886909j)
-kpts_num= 0 kpts= [0. 0. 0.] MO_number=  0 band_number=  2 MO= (-6e-10+0j)
-kpts_num= 0 kpts= [0. 0. 0.] MO_number=  0 band_number=  3 MO= 0j
-kpts_num= 0 kpts= [0. 0. 0.] MO_number=  0 band_number=  4 MO= 0j
-kpts_num= 0 kpts= [0. 0. 0.] MO_number=  0 band_number=  5 MO= 0j
-kpts_num= 0 kpts= [0. 0. 0.] MO_number=  1 band_number=  0 MO= (-8e-10-1e-10j)
-kpts_num= 0 kpts= [0. 0. 0.] MO_number=  1 band_number=  1 MO= (4e-10-1e-10j)
-kpts_num= 0 kpts= [0. 0. 0.] MO_number=  1 band_number=  2 MO= (0.9979432391-0.0641037562j)
-kpts_num= 0 kpts= [0. 0. 0.] MO_number=  1 band_number=  3 MO= 0j
-kpts_num= 0 kpts= [0. 0. 0.] MO_number=  1 band_number=  4 MO= 0j
-kpts_num= 0 kpts= [0. 0. 0.] MO_number=  1 band_number=  5 MO= 0j
-kpts_num= 0 kpts= [0. 0. 0.] MO_number=  2 band_number=  0 MO= (-0.3927613607-0.0456955922j)
-kpts_num= 0 kpts= [0. 0. 0.] MO_number=  2 band_number=  1 MO= (0.8969242786-0.1979324755j)
-kpts_num= 0 kpts= [0. 0. 0.] MO_number=  2 band_number=  2 MO= (-7e-10+0j)
-kpts_num= 0 kpts= [0. 0. 0.] MO_number=  2 band_number=  3 MO= 0j
-kpts_num= 0 kpts= [0. 0. 0.] MO_number=  2 band_number=  4 MO= 0j
-kpts_num= 0 kpts= [0. 0. 0.] MO_number=  2 band_number=  5 MO= 0j
+kpts_num=     0 | kpts=  0.000000, 0.000000, 0.000000 | AO_number=   0 | MO_number=   0 | MO= [-0.912400 + -0.105722]
+kpts_num=     0 | kpts=  0.000000, 0.000000, 0.000000 | AO_number=   0 | MO_number=   1 | MO= [-0.386081 +  0.085389]
+kpts_num=     0 | kpts=  0.000000, 0.000000, 0.000000 | AO_number=   0 | MO_number=   2 | MO= [-0.000000 +  0.000000]
+kpts_num=     0 | kpts=  0.000000, 0.000000, 0.000000 | AO_number=   0 | MO_number=   3 | MO= [ 0.000000 +  0.000000]
+kpts_num=     0 | kpts=  0.000000, 0.000000, 0.000000 | AO_number=   0 | MO_number=   4 | MO= [ 0.000000 +  0.000000]
+kpts_num=     0 | kpts=  0.000000, 0.000000, 0.000000 | AO_number=   0 | MO_number=   5 | MO= [ 0.000000 +  0.000000]
+kpts_num=     0 | kpts=  0.000000, 0.000000, 0.000000 | AO_number=   1 | MO_number=   0 | MO= [-0.000000 + -0.000000]
+kpts_num=     0 | kpts=  0.000000, 0.000000, 0.000000 | AO_number=   1 | MO_number=   1 | MO= [ 0.000000 + -0.000000]
+kpts_num=     0 | kpts=  0.000000, 0.000000, 0.000000 | AO_number=   1 | MO_number=   2 | MO= [ 0.997943 + -0.064104]
+kpts_num=     0 | kpts=  0.000000, 0.000000, 0.000000 | AO_number=   1 | MO_number=   3 | MO= [ 0.000000 +  0.000000]
+kpts_num=     0 | kpts=  0.000000, 0.000000, 0.000000 | AO_number=   1 | MO_number=   4 | MO= [ 0.000000 +  0.000000]
+kpts_num=     0 | kpts=  0.000000, 0.000000, 0.000000 | AO_number=   1 | MO_number=   5 | MO= [ 0.000000 +  0.000000]
+kpts_num=     0 | kpts=  0.000000, 0.000000, 0.000000 | AO_number=   2 | MO_number=   0 | MO= [-0.392761 + -0.045696]
+kpts_num=     0 | kpts=  0.000000, 0.000000, 0.000000 | AO_number=   2 | MO_number=   1 | MO= [ 0.896924 + -0.197932]
+kpts_num=     0 | kpts=  0.000000, 0.000000, 0.000000 | AO_number=   2 | MO_number=   2 | MO= [-0.000000 +  0.000000]
+kpts_num=     0 | kpts=  0.000000, 0.000000, 0.000000 | AO_number=   2 | MO_number=   3 | MO= [ 0.000000 +  0.000000]
+kpts_num=     0 | kpts=  0.000000, 0.000000, 0.000000 | AO_number=   2 | MO_number=   4 | MO= [ 0.000000 +  0.000000]
+kpts_num=     0 | kpts=  0.000000, 0.000000, 0.000000 | AO_number=   2 | MO_number=   5 | MO= [ 0.000000 +  0.000000]

@@ -5,6 +5,6 @@
 #                                                      #
 #                                                      #
 *######################################################*
-MO_number=  0 totalcharge=   2.000000
-MO_number=  1 totalcharge=   2.000000
-MO_number=  2 totalcharge=   2.000000
+MO_number=  0 | totalcharge=   2.000000
+MO_number=  1 | totalcharge=   2.000000
+MO_number=  2 | totalcharge=   2.000000

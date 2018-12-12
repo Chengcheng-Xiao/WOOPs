@@ -23,14 +23,11 @@ Here is a outline of what we want to do:
 --------------------------------------------------
 To run the examples, follow the instructions below.
 
-1. Use .win files in CENT/wannier_data and FE/wannier_data to get u matrix.
-	(1). Use DFT calculator such as VASP or QuantumEspresso to generate cell periodic part of the bloch wavefunction
-	     You can find crystal geometry and kpoint sampling scheme I used in .win file.
-	(2). Use .win file to generate u matrix and r_matrix by Wannier90 package.
+1. Use .win files in CENT/wannier_data/AO and MO and FE/wannier_data/AO and MO to get u matrix by wanneir90.
 
-2. Copy u matrix of AO/MO to WOOP folder as wannier_u_AO/MO.mat. Copy wannier90_r.dat in AO folder to WOOP folder.
+2. Copy u matrix of AO/MO to WOOP folder as wannier_u_AO(MO).mat. Copy wannier90_r.dat in AO folder to WOOP folder.
 
-3. Go to WOOP folder in CENT and FE folder, use WOOPs tools to generate result.
+3. run WOOPs using input.woops provided.
 --------------------------------------------------
 
 Additional:
