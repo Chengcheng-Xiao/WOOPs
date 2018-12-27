@@ -9,8 +9,10 @@
 ```
 # Wannier Orbital Overlap Population tools (WOOPs)
 
-A post-processing tool written in python to get Wannier Orbital Overlap Population (WOOP), Wannier Orbital Position Population (WOPP)* from [Wannier90](https://github.com/wannier-developers/wannier90) package.
 [THIS PACKAGE IS STILL UNDER DEVELOPMENT]
+
+A post-processing tool written in python to get Wannier Orbital Overlap Population (WOOP), Wannier Orbital Position Population (WOPP)* from [Wannier90](https://github.com/wannier-developers/wannier90) package.
+
 
 Before getting into things, you might want to check out these two papers:
 1.  [Phys. Rev. B 56 12847 (1997)](http://dx.doi.org/10.1039/b918890h)
@@ -76,6 +78,8 @@ num_ao     = XX               #[number of AO]
 num_kpts   = XX               #[number of kpts]
 cell_param = XX XX XX         #[cell_param]
 cell_dim   = XX               #[cell_dim: 0D, 1D, 2D or 3D] NOTE: currently 1D->x, 2D->xy
+cprec      = XX             #controls the PRINTING precision of C_matrix, lower means accurate.   default=1e-4
+bprec      = XX             #controls the PRINTING precision of WOOP_matrix, lower means accurate default=1e-4
 ```
 *IMPORTANT*: Every tag must be written in lowercase, full length without abbreviation.
 
@@ -105,7 +109,7 @@ These commands will produce a copy of data stored in hdf5 format and a text file
 
 ## Running the tests
 
-Go Check the description in `example` folder.
+Go check the description in `example` folder.
 
 ## Notes
 *WOPP is still under development, the problem now I'm facing is that the phase factor in Wannier90's r matrix are not "correct" (they are arbitrary). As a result, the ferroelectric polarization decomposition cannot be correctly calculated.

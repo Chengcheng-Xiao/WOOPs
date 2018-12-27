@@ -1,7 +1,10 @@
 #!python
 from __future__ import print_function
 import numpy as np
-import h5py
+import warnings
+with warnings.catch_warnings():
+    warnings.simplefilter("ignore")
+    import h5py
 import sys
 
 #-------------------------------subroutine used-------------------------------------
@@ -13,17 +16,24 @@ def read_input():
     file = open('input.woops', "r")
     data = file.readlines()
     cal = "get_WOOP"
+    cprec = 1e-4
+    bprec = 1e-4
     for line in data:
         key, value = line.split("=")
         dataset[key.strip()] = value.strip()
-    cal = str(dataset["cal"])
+    if "cal" in dataset.keys():
+        cal = str(dataset["cal"])
     number_MO = int(dataset["num_MO"])
     number_AO = int(dataset["num_AO"])
     number_kpts = int(dataset["num_kpts"])
     cell_dim = [float(dataset["cell_param"].split(" ")[0]),float(dataset["cell_param"].split(" ")[1]),float(dataset["cell_param"].split(" ")[2])]
     dim = str(dataset["cell_dim"])
     readmode = str(dataset["readmode"])
-    return number_MO, number_AO, number_kpts, cell_dim, dim, cal, readmode
+    if "cprec" in dataset.keys():
+        cprec = float(dataset["cprec"])
+    if "bprec" in dataset.keys():
+        bprec = float(dataset["bprec"])
+    return number_MO, number_AO, number_kpts, cell_dim, dim, cal, readmode, cprec, bprec
 
 def get_u_matrix(file_name,dimension_fix,dimension,num_kpoints):
 
@@ -195,7 +205,7 @@ print(" _    _  _____  ___________\n"
 
 
 # User input value start
-number_MO, number_AO, number_kpts, cell_dim, dim, cal, readmo=read_input()
+number_MO, number_AO, number_kpts, cell_dim, dim, cal, readmo, cprec, bprec=read_input()
 MO_filename="wannier90_u_MO.mat" #sys.argv[4]
 AO_filename="wannier90_u_AO.mat" #sys.argv[5]
 AO_r_filename="wannier90_r.dat" #sys.argv[6]
@@ -236,7 +246,7 @@ if cal_orb == True and readmode == False:
         hf.create_dataset("kpts", data=kpts)
         hf.create_dataset("rmat", data=rmat)
         hf.create_dataset("R_place", data=R_place)
-        hf.create_dataset("nrpts", data=nrpts)
+        hf.create_dataset("nrpts", shape=(1,), data=nrpts)
 
 #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 elif cal_orb == True and readmode == True:
@@ -247,7 +257,7 @@ elif cal_orb == True and readmode == True:
     kpts = f['kpts'][:]
     rmat = f['rmat'][:]
     R_place = f['R_place'][:]
-    nrpts = f['nrpts']
+    nrpts = f['nrpts'][0]
     f.close()
 ################################################################
 ################################################################
@@ -468,7 +478,7 @@ if cal_c == True:
             for j in range(number_MO):
                 print("*##################       ",R_place[int(use_nrpt[Rl])],"       ###################*",file=f)
                 for i in range(number_AO):
-                    if  abs(np.real(C_nt[Rl][j][i])) > 1e-4:
+                    if  abs(np.real(C_nt[Rl][j][i])) > cprec:
                         print("MO= {0:5d} | AO= {1:5d} | C_nt= {2:10f}".format(j,i,np.real(C_nt[Rl][j][i])),file=f) #,j,"  AO=",i,"C_nt=",np.real(C_nt[Rl][j][i]))
 
 if cal_woop == True:
@@ -486,7 +496,7 @@ if cal_woop == True:
                 for m in range(number_AO):
                     for nrpt_2 in range(len(use_nrpt)):
                         for l in range(number_AO):
-                            if np.abs(np.real(WOOP[I][m][l][nrpt_1][nrpt_2])) > 1e-4:
+                            if np.abs(np.real(WOOP[I][m][l][nrpt_1][nrpt_2])) > bprec:
                                 #to ingest spin degeneracy here we muptiply 2 into the B_iml
                                 print("MO= {0:2d} | AO_m= {1:2d} [{2:2.0f},{3:2.0f},{4:2.0f}] | AO_l= {5:2.0f} [{6:2.0f},{7:2.0f},{8:2.0f}] | B_iml= {9:10f}".format(I,m,R_place[int(use_nrpt[nrpt_1])][0],R_place[int(use_nrpt[nrpt_1])][1],R_place[int(use_nrpt[nrpt_1])][2],l,R_place[int(use_nrpt[nrpt_2])][0],R_place[int(use_nrpt[nrpt_2])][1],R_place[int(use_nrpt[nrpt_2])][2],np.real(WOOP[I][m][l][nrpt_1][nrpt_2])*2),file=f)
 
@@ -536,4 +546,4 @@ if cal_wopp == True:
                 print("number of MO {0:2d} total_moment= {1:10f} ".format(i,total_part*-2),file=f)
             print("Direction {0:2d} total_moment= {1:10f} ".format(dir,total_moment*-2),file=f)
 
-print("All calculation done, see you next time :)")
+print("All calculations done, see you next time :)")
