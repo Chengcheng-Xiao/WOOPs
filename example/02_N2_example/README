@@ -34,4 +34,7 @@ To run the examples, follow the instructions below.
 --------------------------------------------------
 
 Additional:
-1. plot wanneir wavefunction and check if you can get the wannier plot as in "Wannier_function_plot_bond_diagram.png"
+1. Plot wanneir wavefunction and check if you can get the wannier plot as in "Wannier_function_plot_bond_diagram.png"
+
+2. Check C_mat.dat to see that for 2 pi bonding orbitals, decomposition parameters are both 1/SQRT(2) = 0.70107. This matchs
+   well with the analytical result.

@@ -128,7 +128,7 @@ def get_WOOP(AO, kpts, C_ij, AO_wann, MO_wann, use_nrpt, R_place):
     B_iml=np.zeros((MO_wann,AO_wann,AO_wann,len(use_nrpt),len(use_nrpt)),dtype=complex)
     #    S_iml = np.zeros((AO_wann,AO_wann),dtype=complex)
     #Calcualte WOOP
-    for I in range(MO_wann):
+    for I in range(MO_wann): # Chose one MO
         for nrpt_1 in range(len(use_nrpt)): #use_nrpt[i] where i labels from  [0,0,0] to  [-1,0,0].
             for m in range(AO_wann):
                 for nrpt_2 in range(len(use_nrpt)):
@@ -136,7 +136,7 @@ def get_WOOP(AO, kpts, C_ij, AO_wann, MO_wann, use_nrpt, R_place):
                         S_iml = 0+1j*0
                         for k in range(len(kpts)):
                             S_iml_tmp = 0+1j*0
-                            for n in range(AO_wann):
+                            for n in range(AO_wann): #n stands for bloch band number in the u matrix.
                                 S_iml_tmp += np.dot(np.conj(AO[k][n][m]),AO[k][n][l])
                             S_iml += np.dot(np.exp(1j*2*np.pi*np.dot(kpts[k],(R_place[int(use_nrpt[nrpt_1])]-R_place[int(use_nrpt[nrpt_2])]))),S_iml_tmp)
                         S_iml /= len(kpts)
@@ -405,7 +405,7 @@ if cal_orb == True:
             for m in range(number_MO):
                 for n in range(number_AO):
                     #print("kpts_num=",k,"kpts=", kpts[k], "MO_number= ",m,"band_number= ",n,"MO=",MO[k][n][m],file=f)
-                    print("kpts_num= {0:5d} | kpts= {1: 5f},{2: 5f},{3: 5f} | AO_number= {4:3d} | MO_number= {5:3d} | MO= [{6.real: 5f} + {6.imag: 5f}]".format(k,kpts[k][0],kpts[k][1],kpts[k][2],m,n,MO[k][n][m]),file=f)
+                    print("kpts_num= {0:5d} | kpts= {1: 5f},{2: 5f},{3: 5f} | wann_number= {4:3d} | bloch_band_number= {5:3d} | U_mat = [{6.real: 5f} + {6.imag: 5f} i]".format(k,kpts[k][0],kpts[k][1],kpts[k][2],m,n,MO[k][n][m]),file=f)
 
     with open('AO.txt', 'w') as f:
         print("*######################################################*",file=f)
@@ -427,7 +427,7 @@ if cal_orb == True:
             for m in range(number_AO):
                 for n in range(number_AO):
                     #print("kpts_num=",k,"kpts=", kpts[k], "AO_number= ",m,"band_number= ",n,"AO=",AO[k][n][m],file=f)
-                    print("kpts_num= {0:5d} | kpts= {1: 5f},{2: 5f},{3: 5f} | AO_number= {4:3d} | MO_number= {5:3d} | MO= [{6.real: 5f} + {6.imag: 5f}]".format(k,kpts[k][0],kpts[k][1],kpts[k][2],m,n,AO[k][n][m]),file=f)
+                    print("kpts_num= {0:5d} | kpts= {1: 5f},{2: 5f},{3: 5f} | wann_number= {4:3d} | bloch_band_number= {5:3d} | U_mat = [{6.real: 5f} + {6.imag: 5f} i]".format(k,kpts[k][0],kpts[k][1],kpts[k][2],m,n,AO[k][n][m]),file=f)
 
 
     with open('r_mat.txt', 'w') as f:
