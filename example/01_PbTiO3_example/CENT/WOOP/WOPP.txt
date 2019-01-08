@@ -1,0 +1,190 @@
+*######################################################*
+#                                                      #
+#                                                      #
+#                  Printing D_iml                      #
+#                    aka WOPP                          #
+#                                                      #
+*######################################################*
+number of MO  0 total_moment=  -0.005097 
+Direction=  0 MO_number_i=  1 AO_number_m=  4  [ 0, 0, 0] AO_number_n=  4 [ 0, 0, 0] WOPP=  -0.292917
+Direction=  0 MO_number_i=  1 AO_number_m=  9  [ 0, 0, 0] AO_number_n=  9 [ 0, 0, 0] WOPP=  -3.259960
+Direction=  0 MO_number_i=  1 AO_number_m=  4  [ 0, 0,-1] AO_number_n=  4 [ 0, 0,-1] WOPP=  -0.292917
+number of MO  1 total_moment=  -3.875961 
+Direction=  0 MO_number_i=  2 AO_number_m=  5  [ 0, 0, 0] AO_number_n=  5 [ 0, 0, 0] WOPP=  -0.182875
+Direction=  0 MO_number_i=  2 AO_number_m= 10  [ 0, 0, 0] AO_number_n= 10 [ 0, 0, 0] WOPP=  -3.400606
+Direction=  0 MO_number_i=  2 AO_number_m=  2  [ 1, 0, 0] AO_number_n=  2 [ 1, 0, 0] WOPP=  -0.020236
+Direction=  0 MO_number_i=  2 AO_number_m=  3  [ 1, 0, 0] AO_number_n=  3 [ 1, 0, 0] WOPP=  -0.022207
+Direction=  0 MO_number_i=  2 AO_number_m=  5  [ 0, 0,-1] AO_number_n=  5 [ 0, 0,-1] WOPP=  -0.182875
+number of MO  2 total_moment=  -3.798047 
+Direction=  0 MO_number_i=  3 AO_number_m=  6  [ 0, 0, 0] AO_number_n=  6 [ 0, 0, 0] WOPP=  -0.182875
+Direction=  0 MO_number_i=  3 AO_number_m= 11  [ 0, 0, 0] AO_number_n= 11 [ 0, 0, 0] WOPP=  -3.400606
+Direction=  0 MO_number_i=  3 AO_number_m=  2  [ 1, 0, 0] AO_number_n=  2 [ 1, 0, 0] WOPP=  -0.022207
+Direction=  0 MO_number_i=  3 AO_number_m=  3  [ 1, 0, 0] AO_number_n=  3 [ 1, 0, 0] WOPP=  -0.020236
+Direction=  0 MO_number_i=  3 AO_number_m=  6  [ 0, 0,-1] AO_number_n=  6 [ 0, 0,-1] WOPP=  -0.182875
+number of MO  3 total_moment=  -3.808757 
+Direction=  0 MO_number_i=  4 AO_number_m=  5  [ 0, 0, 0] AO_number_n=  5 [ 0, 0, 0] WOPP=  -0.182875
+Direction=  0 MO_number_i=  4 AO_number_m=  5  [ 0, 0, 0] AO_number_n= 12 [ 0, 0, 0] WOPP=   0.023416
+Direction=  0 MO_number_i=  4 AO_number_m= 12  [ 0, 0, 0] AO_number_n=  5 [ 0, 0, 0] WOPP=   0.023416
+Direction=  0 MO_number_i=  4 AO_number_m= 12  [ 0, 0, 0] AO_number_n=  5 [-1, 0, 0] WOPP=  -0.022824
+Direction=  0 MO_number_i=  4 AO_number_m=  5  [-1, 0, 0] AO_number_n= 12 [ 0, 0, 0] WOPP=  -0.023416
+Direction=  0 MO_number_i=  4 AO_number_m=  5  [-1, 0, 0] AO_number_n=  5 [-1, 0, 0] WOPP=   0.182875
+number of MO  4 total_moment=  -0.010365 
+Direction=  0 MO_number_i=  5 AO_number_m=  4  [ 0, 0, 0] AO_number_n=  4 [ 0, 0, 0] WOPP=  -0.073173
+Direction=  0 MO_number_i=  5 AO_number_m=  7  [ 0, 0, 0] AO_number_n=  7 [ 0, 0, 0] WOPP=  -0.219520
+Direction=  0 MO_number_i=  5 AO_number_m=  7  [ 0, 0, 0] AO_number_n= 13 [ 0, 0, 0] WOPP=   0.020538
+Direction=  0 MO_number_i=  5 AO_number_m= 13  [ 0, 0, 0] AO_number_n=  7 [ 0, 0, 0] WOPP=   0.020538
+Direction=  0 MO_number_i=  5 AO_number_m= 13  [ 0, 0, 0] AO_number_n=  7 [-1, 0, 0] WOPP=  -0.016285
+Direction=  0 MO_number_i=  5 AO_number_m= 13  [ 1, 0, 0] AO_number_n= 13 [ 1, 0, 0] WOPP=  -0.010209
+Direction=  0 MO_number_i=  5 AO_number_m=  4  [-1, 0, 0] AO_number_n=  4 [-1, 0, 0] WOPP=   0.073173
+Direction=  0 MO_number_i=  5 AO_number_m=  7  [-1, 0, 0] AO_number_n= 13 [ 0, 0, 0] WOPP=  -0.020538
+Direction=  0 MO_number_i=  5 AO_number_m=  7  [-1, 0, 0] AO_number_n=  7 [-1, 0, 0] WOPP=   0.219520
+Direction=  0 MO_number_i=  5 AO_number_m= 13  [-1, 0, 0] AO_number_n= 13 [-1, 0, 0] WOPP=   0.010209
+number of MO  5 total_moment=  -0.005459 
+Direction=  0 MO_number_i=  6 AO_number_m=  8  [ 0, 0, 0] AO_number_n=  8 [ 0, 0, 0] WOPP=  -0.182875
+Direction=  0 MO_number_i=  6 AO_number_m=  8  [ 0, 0, 0] AO_number_n= 14 [ 0, 0, 0] WOPP=   0.023416
+Direction=  0 MO_number_i=  6 AO_number_m= 14  [ 0, 0, 0] AO_number_n=  8 [ 0, 0, 0] WOPP=   0.023416
+Direction=  0 MO_number_i=  6 AO_number_m= 14  [ 0, 0, 0] AO_number_n=  8 [-1, 0, 0] WOPP=  -0.022824
+Direction=  0 MO_number_i=  6 AO_number_m=  8  [-1, 0, 0] AO_number_n= 14 [ 0, 0, 0] WOPP=  -0.023416
+Direction=  0 MO_number_i=  6 AO_number_m=  8  [-1, 0, 0] AO_number_n=  8 [-1, 0, 0] WOPP=   0.182875
+number of MO  6 total_moment=  -0.010371 
+Direction=  0 MO_number_i=  7 AO_number_m=  6  [ 0, 0, 0] AO_number_n=  6 [ 0, 0, 0] WOPP=  -0.182875
+Direction=  0 MO_number_i=  7 AO_number_m= 15  [ 0, 0, 0] AO_number_n= 15 [ 0, 0, 0] WOPP=  -3.400617
+Direction=  0 MO_number_i=  7 AO_number_m=  1  [ 1, 0, 0] AO_number_n=  1 [ 1, 0, 0] WOPP=  -0.020237
+Direction=  0 MO_number_i=  7 AO_number_m=  2  [ 1, 0, 0] AO_number_n=  2 [ 1, 0, 0] WOPP=  -0.022211
+Direction=  0 MO_number_i=  7 AO_number_m=  6  [ 0,-1, 0] AO_number_n=  6 [ 0,-1, 0] WOPP=  -0.182875
+number of MO  7 total_moment=  -3.808754 
+Direction=  0 MO_number_i=  8 AO_number_m=  8  [ 0, 0, 0] AO_number_n=  8 [ 0, 0, 0] WOPP=  -0.182875
+Direction=  0 MO_number_i=  8 AO_number_m= 16  [ 0, 0, 0] AO_number_n= 16 [ 0, 0, 0] WOPP=  -3.400626
+Direction=  0 MO_number_i=  8 AO_number_m=  1  [ 1, 0, 0] AO_number_n=  1 [ 1, 0, 0] WOPP=  -0.022211
+Direction=  0 MO_number_i=  8 AO_number_m=  2  [ 1, 0, 0] AO_number_n=  2 [ 1, 0, 0] WOPP=  -0.020235
+Direction=  0 MO_number_i=  8 AO_number_m=  8  [ 0,-1, 0] AO_number_n=  8 [ 0,-1, 0] WOPP=  -0.182875
+number of MO  8 total_moment=  -3.798053 
+Direction=  0 MO_number_i=  9 AO_number_m=  4  [ 0, 0, 0] AO_number_n=  4 [ 0, 0, 0] WOPP=  -0.073173
+Direction=  0 MO_number_i=  9 AO_number_m=  7  [ 0, 0, 0] AO_number_n=  7 [ 0, 0, 0] WOPP=  -0.219520
+Direction=  0 MO_number_i=  9 AO_number_m= 17  [ 0, 0, 0] AO_number_n= 17 [ 0, 0, 0] WOPP=  -3.260205
+Direction=  0 MO_number_i=  9 AO_number_m=  4  [ 0,-1, 0] AO_number_n=  4 [ 0,-1, 0] WOPP=  -0.073173
+Direction=  0 MO_number_i=  9 AO_number_m=  7  [ 0,-1, 0] AO_number_n=  7 [ 0,-1, 0] WOPP=  -0.219520
+number of MO  9 total_moment=  -3.877994 
+Direction  0 total_moment= -22.998858 
+number of MO  0 total_moment=  -0.005097 
+Direction=  1 MO_number_i=  1 AO_number_m=  4  [ 0, 0, 0] AO_number_n=  4 [ 0, 0, 0] WOPP=  -0.292917
+Direction=  1 MO_number_i=  1 AO_number_m=  9  [ 0, 0, 0] AO_number_n=  9 [ 0, 0, 0] WOPP=  -3.259960
+Direction=  1 MO_number_i=  1 AO_number_m=  4  [ 0, 0,-1] AO_number_n=  4 [ 0, 0,-1] WOPP=  -0.292917
+number of MO  1 total_moment=  -3.875961 
+Direction=  1 MO_number_i=  2 AO_number_m=  5  [ 0, 0, 0] AO_number_n=  5 [ 0, 0, 0] WOPP=  -0.182875
+Direction=  1 MO_number_i=  2 AO_number_m= 10  [ 0, 0, 0] AO_number_n= 10 [ 0, 0, 0] WOPP=  -3.400606
+Direction=  1 MO_number_i=  2 AO_number_m=  2  [ 0, 1, 0] AO_number_n=  2 [ 0, 1, 0] WOPP=  -0.020236
+Direction=  1 MO_number_i=  2 AO_number_m=  3  [ 0, 1, 0] AO_number_n=  3 [ 0, 1, 0] WOPP=  -0.022207
+Direction=  1 MO_number_i=  2 AO_number_m=  5  [ 0, 0,-1] AO_number_n=  5 [ 0, 0,-1] WOPP=  -0.182875
+number of MO  2 total_moment=  -3.808757 
+Direction=  1 MO_number_i=  3 AO_number_m=  6  [ 0, 0, 0] AO_number_n=  6 [ 0, 0, 0] WOPP=  -0.182875
+Direction=  1 MO_number_i=  3 AO_number_m= 11  [ 0, 0, 0] AO_number_n= 11 [ 0, 0, 0] WOPP=  -3.400606
+Direction=  1 MO_number_i=  3 AO_number_m=  2  [ 0, 1, 0] AO_number_n=  2 [ 0, 1, 0] WOPP=  -0.022207
+Direction=  1 MO_number_i=  3 AO_number_m=  3  [ 0, 1, 0] AO_number_n=  3 [ 0, 1, 0] WOPP=  -0.020236
+Direction=  1 MO_number_i=  3 AO_number_m=  6  [ 0, 0,-1] AO_number_n=  6 [ 0, 0,-1] WOPP=  -0.182875
+number of MO  3 total_moment=  -3.798047 
+Direction=  1 MO_number_i=  4 AO_number_m=  5  [ 0, 0, 0] AO_number_n=  5 [ 0, 0, 0] WOPP=  -0.182875
+Direction=  1 MO_number_i=  4 AO_number_m= 12  [ 0, 0, 0] AO_number_n= 12 [ 0, 0, 0] WOPP=  -3.400617
+Direction=  1 MO_number_i=  4 AO_number_m=  1  [ 0, 1, 0] AO_number_n=  1 [ 0, 1, 0] WOPP=  -0.020237
+Direction=  1 MO_number_i=  4 AO_number_m=  3  [ 0, 1, 0] AO_number_n=  3 [ 0, 1, 0] WOPP=  -0.022211
+Direction=  1 MO_number_i=  4 AO_number_m=  5  [-1, 0, 0] AO_number_n=  5 [-1, 0, 0] WOPP=  -0.182875
+number of MO  4 total_moment=  -3.808754 
+Direction=  1 MO_number_i=  5 AO_number_m=  4  [ 0, 0, 0] AO_number_n=  4 [ 0, 0, 0] WOPP=  -0.073173
+Direction=  1 MO_number_i=  5 AO_number_m=  7  [ 0, 0, 0] AO_number_n=  7 [ 0, 0, 0] WOPP=  -0.219520
+Direction=  1 MO_number_i=  5 AO_number_m= 13  [ 0, 0, 0] AO_number_n= 13 [ 0, 0, 0] WOPP=  -3.260205
+Direction=  1 MO_number_i=  5 AO_number_m=  4  [-1, 0, 0] AO_number_n=  4 [-1, 0, 0] WOPP=  -0.073173
+Direction=  1 MO_number_i=  5 AO_number_m=  7  [-1, 0, 0] AO_number_n=  7 [-1, 0, 0] WOPP=  -0.219520
+number of MO  5 total_moment=  -3.877994 
+Direction=  1 MO_number_i=  6 AO_number_m=  8  [ 0, 0, 0] AO_number_n=  8 [ 0, 0, 0] WOPP=  -0.182875
+Direction=  1 MO_number_i=  6 AO_number_m= 14  [ 0, 0, 0] AO_number_n= 14 [ 0, 0, 0] WOPP=  -3.400625
+Direction=  1 MO_number_i=  6 AO_number_m=  1  [ 0, 1, 0] AO_number_n=  1 [ 0, 1, 0] WOPP=  -0.022211
+Direction=  1 MO_number_i=  6 AO_number_m=  3  [ 0, 1, 0] AO_number_n=  3 [ 0, 1, 0] WOPP=  -0.020235
+Direction=  1 MO_number_i=  6 AO_number_m=  8  [-1, 0, 0] AO_number_n=  8 [-1, 0, 0] WOPP=  -0.182875
+number of MO  6 total_moment=  -3.798052 
+Direction=  1 MO_number_i=  7 AO_number_m=  6  [ 0, 0, 0] AO_number_n=  6 [ 0, 0, 0] WOPP=  -0.182875
+Direction=  1 MO_number_i=  7 AO_number_m=  6  [ 0, 0, 0] AO_number_n= 15 [ 0, 0, 0] WOPP=   0.023416
+Direction=  1 MO_number_i=  7 AO_number_m= 15  [ 0, 0, 0] AO_number_n=  6 [ 0, 0, 0] WOPP=   0.023416
+Direction=  1 MO_number_i=  7 AO_number_m= 15  [ 0, 0, 0] AO_number_n=  6 [ 0,-1, 0] WOPP=  -0.022824
+Direction=  1 MO_number_i=  7 AO_number_m=  6  [ 0,-1, 0] AO_number_n= 15 [ 0, 0, 0] WOPP=  -0.023416
+Direction=  1 MO_number_i=  7 AO_number_m=  6  [ 0,-1, 0] AO_number_n=  6 [ 0,-1, 0] WOPP=   0.182875
+number of MO  7 total_moment=  -0.010365 
+Direction=  1 MO_number_i=  8 AO_number_m=  8  [ 0, 0, 0] AO_number_n=  8 [ 0, 0, 0] WOPP=  -0.182875
+Direction=  1 MO_number_i=  8 AO_number_m=  8  [ 0, 0, 0] AO_number_n= 16 [ 0, 0, 0] WOPP=   0.023416
+Direction=  1 MO_number_i=  8 AO_number_m= 16  [ 0, 0, 0] AO_number_n=  8 [ 0, 0, 0] WOPP=   0.023416
+Direction=  1 MO_number_i=  8 AO_number_m= 16  [ 0, 0, 0] AO_number_n=  8 [ 0,-1, 0] WOPP=  -0.022824
+Direction=  1 MO_number_i=  8 AO_number_m=  8  [ 0,-1, 0] AO_number_n= 16 [ 0, 0, 0] WOPP=  -0.023416
+Direction=  1 MO_number_i=  8 AO_number_m=  8  [ 0,-1, 0] AO_number_n=  8 [ 0,-1, 0] WOPP=   0.182875
+number of MO  8 total_moment=  -0.010371 
+Direction=  1 MO_number_i=  9 AO_number_m=  4  [ 0, 0, 0] AO_number_n=  4 [ 0, 0, 0] WOPP=  -0.073173
+Direction=  1 MO_number_i=  9 AO_number_m=  7  [ 0, 0, 0] AO_number_n=  7 [ 0, 0, 0] WOPP=  -0.219520
+Direction=  1 MO_number_i=  9 AO_number_m=  7  [ 0, 0, 0] AO_number_n= 17 [ 0, 0, 0] WOPP=   0.020538
+Direction=  1 MO_number_i=  9 AO_number_m= 17  [ 0, 0, 0] AO_number_n=  7 [ 0, 0, 0] WOPP=   0.020538
+Direction=  1 MO_number_i=  9 AO_number_m= 17  [ 0, 0, 0] AO_number_n=  7 [ 0,-1, 0] WOPP=  -0.016285
+Direction=  1 MO_number_i=  9 AO_number_m= 17  [ 0, 1, 0] AO_number_n= 17 [ 0, 1, 0] WOPP=  -0.010209
+Direction=  1 MO_number_i=  9 AO_number_m=  4  [ 0,-1, 0] AO_number_n=  4 [ 0,-1, 0] WOPP=   0.073173
+Direction=  1 MO_number_i=  9 AO_number_m=  7  [ 0,-1, 0] AO_number_n= 17 [ 0, 0, 0] WOPP=  -0.020538
+Direction=  1 MO_number_i=  9 AO_number_m=  7  [ 0,-1, 0] AO_number_n=  7 [ 0,-1, 0] WOPP=   0.219520
+Direction=  1 MO_number_i=  9 AO_number_m= 17  [ 0,-1, 0] AO_number_n= 17 [ 0,-1, 0] WOPP=   0.010209
+number of MO  9 total_moment=  -0.005459 
+Direction  1 total_moment= -22.998858 
+number of MO  0 total_moment=  -0.005090 
+Direction=  2 MO_number_i=  1 AO_number_m=  4  [ 0, 0, 0] AO_number_n=  4 [ 0, 0, 0] WOPP=  -0.292917
+Direction=  2 MO_number_i=  1 AO_number_m=  4  [ 0, 0, 0] AO_number_n=  9 [ 0, 0, 0] WOPP=   0.027426
+Direction=  2 MO_number_i=  1 AO_number_m=  9  [ 0, 0, 0] AO_number_n=  4 [ 0, 0, 0] WOPP=   0.027426
+Direction=  2 MO_number_i=  1 AO_number_m=  9  [ 0, 0, 0] AO_number_n=  4 [ 0, 0,-1] WOPP=  -0.021751
+Direction=  2 MO_number_i=  1 AO_number_m=  9  [ 0, 0, 1] AO_number_n=  9 [ 0, 0, 1] WOPP=  -0.010220
+Direction=  2 MO_number_i=  1 AO_number_m=  4  [ 0, 0,-1] AO_number_n=  9 [ 0, 0, 0] WOPP=  -0.027426
+Direction=  2 MO_number_i=  1 AO_number_m=  4  [ 0, 0,-1] AO_number_n=  4 [ 0, 0,-1] WOPP=   0.292917
+Direction=  2 MO_number_i=  1 AO_number_m=  9  [ 0, 0,-1] AO_number_n=  9 [ 0, 0,-1] WOPP=   0.010220
+number of MO  1 total_moment=  -0.008020 
+Direction=  2 MO_number_i=  2 AO_number_m=  5  [ 0, 0, 0] AO_number_n=  5 [ 0, 0, 0] WOPP=  -0.182875
+Direction=  2 MO_number_i=  2 AO_number_m=  5  [ 0, 0, 0] AO_number_n= 10 [ 0, 0, 0] WOPP=   0.023415
+Direction=  2 MO_number_i=  2 AO_number_m= 10  [ 0, 0, 0] AO_number_n=  5 [ 0, 0, 0] WOPP=   0.023415
+Direction=  2 MO_number_i=  2 AO_number_m= 10  [ 0, 0, 0] AO_number_n=  5 [ 0, 0,-1] WOPP=  -0.022823
+Direction=  2 MO_number_i=  2 AO_number_m=  5  [ 0, 0,-1] AO_number_n= 10 [ 0, 0, 0] WOPP=  -0.023415
+Direction=  2 MO_number_i=  2 AO_number_m=  5  [ 0, 0,-1] AO_number_n=  5 [ 0, 0,-1] WOPP=   0.182875
+number of MO  2 total_moment=  -0.010357 
+Direction=  2 MO_number_i=  3 AO_number_m=  6  [ 0, 0, 0] AO_number_n=  6 [ 0, 0, 0] WOPP=  -0.182875
+Direction=  2 MO_number_i=  3 AO_number_m=  6  [ 0, 0, 0] AO_number_n= 11 [ 0, 0, 0] WOPP=   0.023415
+Direction=  2 MO_number_i=  3 AO_number_m= 11  [ 0, 0, 0] AO_number_n=  6 [ 0, 0, 0] WOPP=   0.023415
+Direction=  2 MO_number_i=  3 AO_number_m= 11  [ 0, 0, 0] AO_number_n=  6 [ 0, 0,-1] WOPP=  -0.022823
+Direction=  2 MO_number_i=  3 AO_number_m=  6  [ 0, 0,-1] AO_number_n= 11 [ 0, 0, 0] WOPP=  -0.023415
+Direction=  2 MO_number_i=  3 AO_number_m=  6  [ 0, 0,-1] AO_number_n=  6 [ 0, 0,-1] WOPP=   0.182875
+number of MO  3 total_moment=  -0.010357 
+Direction=  2 MO_number_i=  4 AO_number_m=  5  [ 0, 0, 0] AO_number_n=  5 [ 0, 0, 0] WOPP=  -0.182875
+Direction=  2 MO_number_i=  4 AO_number_m= 12  [ 0, 0, 0] AO_number_n= 12 [ 0, 0, 0] WOPP=  -3.400617
+Direction=  2 MO_number_i=  4 AO_number_m=  1  [ 0, 0, 1] AO_number_n=  1 [ 0, 0, 1] WOPP=  -0.020237
+Direction=  2 MO_number_i=  4 AO_number_m=  3  [ 0, 0, 1] AO_number_n=  3 [ 0, 0, 1] WOPP=  -0.022211
+Direction=  2 MO_number_i=  4 AO_number_m=  5  [-1, 0, 0] AO_number_n=  5 [-1, 0, 0] WOPP=  -0.182875
+number of MO  4 total_moment=  -3.798072 
+Direction=  2 MO_number_i=  5 AO_number_m=  4  [ 0, 0, 0] AO_number_n=  4 [ 0, 0, 0] WOPP=  -0.073173
+Direction=  2 MO_number_i=  5 AO_number_m=  7  [ 0, 0, 0] AO_number_n=  7 [ 0, 0, 0] WOPP=  -0.219520
+Direction=  2 MO_number_i=  5 AO_number_m= 13  [ 0, 0, 0] AO_number_n= 13 [ 0, 0, 0] WOPP=  -3.260205
+Direction=  2 MO_number_i=  5 AO_number_m=  4  [-1, 0, 0] AO_number_n=  4 [-1, 0, 0] WOPP=  -0.073173
+Direction=  2 MO_number_i=  5 AO_number_m=  7  [-1, 0, 0] AO_number_n=  7 [-1, 0, 0] WOPP=  -0.219520
+number of MO  5 total_moment=  -3.875568 
+Direction=  2 MO_number_i=  6 AO_number_m=  8  [ 0, 0, 0] AO_number_n=  8 [ 0, 0, 0] WOPP=  -0.182875
+Direction=  2 MO_number_i=  6 AO_number_m= 14  [ 0, 0, 0] AO_number_n= 14 [ 0, 0, 0] WOPP=  -3.400625
+Direction=  2 MO_number_i=  6 AO_number_m=  1  [ 0, 0, 1] AO_number_n=  1 [ 0, 0, 1] WOPP=  -0.022211
+Direction=  2 MO_number_i=  6 AO_number_m=  3  [ 0, 0, 1] AO_number_n=  3 [ 0, 0, 1] WOPP=  -0.020235
+Direction=  2 MO_number_i=  6 AO_number_m=  8  [-1, 0, 0] AO_number_n=  8 [-1, 0, 0] WOPP=  -0.182875
+number of MO  6 total_moment=  -3.808758 
+Direction=  2 MO_number_i=  7 AO_number_m=  6  [ 0, 0, 0] AO_number_n=  6 [ 0, 0, 0] WOPP=  -0.182875
+Direction=  2 MO_number_i=  7 AO_number_m= 15  [ 0, 0, 0] AO_number_n= 15 [ 0, 0, 0] WOPP=  -3.400617
+Direction=  2 MO_number_i=  7 AO_number_m=  1  [ 0, 0, 1] AO_number_n=  1 [ 0, 0, 1] WOPP=  -0.020237
+Direction=  2 MO_number_i=  7 AO_number_m=  2  [ 0, 0, 1] AO_number_n=  2 [ 0, 0, 1] WOPP=  -0.022211
+Direction=  2 MO_number_i=  7 AO_number_m=  6  [ 0,-1, 0] AO_number_n=  6 [ 0,-1, 0] WOPP=  -0.182875
+number of MO  7 total_moment=  -3.798072 
+Direction=  2 MO_number_i=  8 AO_number_m=  8  [ 0, 0, 0] AO_number_n=  8 [ 0, 0, 0] WOPP=  -0.182875
+Direction=  2 MO_number_i=  8 AO_number_m= 16  [ 0, 0, 0] AO_number_n= 16 [ 0, 0, 0] WOPP=  -3.400625
+Direction=  2 MO_number_i=  8 AO_number_m=  1  [ 0, 0, 1] AO_number_n=  1 [ 0, 0, 1] WOPP=  -0.022211
+Direction=  2 MO_number_i=  8 AO_number_m=  2  [ 0, 0, 1] AO_number_n=  2 [ 0, 0, 1] WOPP=  -0.020235
+Direction=  2 MO_number_i=  8 AO_number_m=  8  [ 0,-1, 0] AO_number_n=  8 [ 0,-1, 0] WOPP=  -0.182875
+number of MO  8 total_moment=  -3.808758 
+Direction=  2 MO_number_i=  9 AO_number_m=  4  [ 0, 0, 0] AO_number_n=  4 [ 0, 0, 0] WOPP=  -0.073173
+Direction=  2 MO_number_i=  9 AO_number_m=  7  [ 0, 0, 0] AO_number_n=  7 [ 0, 0, 0] WOPP=  -0.219520
+Direction=  2 MO_number_i=  9 AO_number_m= 17  [ 0, 0, 0] AO_number_n= 17 [ 0, 0, 0] WOPP=  -3.260205
+Direction=  2 MO_number_i=  9 AO_number_m=  4  [ 0,-1, 0] AO_number_n=  4 [ 0,-1, 0] WOPP=  -0.073173
+Direction=  2 MO_number_i=  9 AO_number_m=  7  [ 0,-1, 0] AO_number_n=  7 [ 0,-1, 0] WOPP=  -0.219520
+number of MO  9 total_moment=  -3.875567 
+Direction  2 total_moment= -22.998618 

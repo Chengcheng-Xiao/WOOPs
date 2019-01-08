@@ -9,8 +9,6 @@
 ```
 # Wannier Orbital Overlap Population tools (WOOPs)
 
-[THIS PACKAGE IS STILL UNDER DEVELOPMENT]
-
 A post-processing tool written in python to get Wannier Orbital Overlap Population (WOOP), Wannier Orbital Position Population (WOPP)* from [Wannier90](https://github.com/wannier-developers/wannier90) package.
 
 
@@ -64,12 +62,12 @@ File need for WOOPs:
 
 1. `wannier90_u_AO.mat` (Unitary matrix of atomic orbitals from valence band and conduction interpolation)
 2. `wannier90_u_MO.mat` (Unitary matrix of molecular orbitals from only valence band interpolation)
-3. `wannier90_r.dat` (Use master branch for compatibility)
+3. `wannier90_tb.dat` (Use master branch for compatibility)
 4. `input.woops`
 
-Detailed preparation for Wannier90 generated files can be found in Wanneir90's user guid or in the `example` folder.
+Detailed preparation for Wannier90 generated files can be found in Wanneir90's user guide, or in the `example` folder.
 
-The format of input.woops follows:
+The format of `input.woops` follows:
 ```
 readmode   = XX               #[must be True or False]
 cal        = XX               #[Things you want to do]
@@ -80,6 +78,7 @@ cell_param = XX XX XX         #[cell_param]
 cell_dim   = XX               #[cell_dim: 0D, 1D, 2D or 3D] NOTE: currently 1D->x, 2D->xy
 cprec      = XX             #controls the PRINTING precision of C_matrix, lower means accurate.   default=1e-4
 bprec      = XX             #controls the PRINTING precision of WOOP_matrix, lower means accurate default=1e-4
+pprec      = XX             #controls the PRINTING precision of WOPP_matrix, lower means accurate default=1e-2
 ```
 *IMPORTANT*: Every tag must be written in lowercase, full length without abbreviation.
 
@@ -96,11 +95,11 @@ bprec      = XX             #controls the PRINTING precision of WOOP_matrix, low
 
 When the input file is properly prepared:
 ```
-./WOOPs.py
+./WOOPs.py > woops.log &
 ```
 or if you put it in your path:
 ```
-WOOPs.py
+WOOPs.py > woops.log &
 ```
 This may take a few minutes, consider submitting it to the queue system.
 
@@ -112,12 +111,10 @@ These commands will produce a copy of data stored in hdf5 format and a text file
 Go check the description in `example` folder.
 
 ## Notes
-*WOPP is still under development, the problem now I'm facing is that the phase factor in Wannier90's r matrix are not "correct" (they are arbitrary). As a result, the ferroelectric polarization decomposition cannot be correctly calculated.
+WOPP is still under Alpha testing phase, the problem now I'm facing is that the 'position matrix', or, Wannier90's r_matrix ( position in `hamiltonian.F90`) do not agree with Wannier Function Center (rave in `wannierise.F90`). As a result, the ferroelectric polarization decomposition cannot be correctly calculated. To avoid this, I am now using <0n|r|Rm> written in the `wanneir90_tb.dat` file.
 
 ## TODO_list
 1. Complete a simplified description of WOOP and its capability.
-
-2. Fix phase factor error in WOPP interface.
 
 3. Increase efficiency.
 

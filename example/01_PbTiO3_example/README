@@ -30,5 +30,84 @@ To run the examples, follow the instructions below.
 3. run WOOPs using input.woops provided.
 --------------------------------------------------
 
+Comparing WOPP and Wannier centre method to calculate FE polarization:
+
+===================================================================================
+ELECTRONIC PART:
+
+CENT			X	   Y	      Z
+WF number:  1  Centre:  0.000000,  0.000000,  0.000000
+WF number:  2  Centre:  1.944478,  1.944478,  0.000000
+WF number:  3  Centre:  1.944478,  1.944478, -0.000000
+WF number:  4  Centre:  1.944478,  1.944478, -0.000000
+WF number:  5  Centre:  0.000000,  1.944478,  1.944478
+WF number:  6  Centre:  0.000000,  1.944478,  1.944478
+WF number:  7  Centre: -0.000000,  1.944478,  1.944478
+WF number:  8  Centre:  1.944478, -0.000000,  1.944478
+WF number:  9  Centre:  1.944478, -0.000000,  1.944478
+WF number: 10  Centre:  1.944478,  0.000000,  1.944478
+total_moment           -23.33374, -23.33374, -23.33374 [each WF have 2 negative charge]
+
+FE                      X          Y          Z
+WF number:  1  Centre:  0.000000,  0.000000, -0.001986
+WF number:  2  Centre:  1.944478,  1.944478, -0.027508
+WF number:  3  Centre:  1.944478,  1.944478, -0.077761
+WF number:  4  Centre:  1.944478,  1.944478, -0.077761
+WF number:  5  Centre:  0.000000,  1.944478,  1.946657
+WF number:  6  Centre:  0.000000,  1.944478,  1.954838
+WF number:  7  Centre: -0.000000,  1.944478,  1.956248
+WF number:  8  Centre:  1.944478, -0.000000,  1.946657
+WF number:  9  Centre:  1.944478, -0.000000,  1.956248
+WF number: 10  Centre:  1.944478,  0.000000,  1.954838
+total_moment           -23.33374, -23.33374, -23.06094 [each WF have 2 negative charge]
+
+diff in z [using wannier centre] : (-23.06094)-(-23.33374) = 0.2728 electron*A
+diff in z [using WOPP]           : (-22.72144)-(-22.99862) = 0.2772 electron*A
+
+-----------------------------------------------------------------------------------
+IONIC PART
+
+CENT                    X          Y          Z          Normal charge
+Atom:     Ti  Position: 1.9444779, 1.9444779, 1.9444779  4
+Atom:     Pb  Position: 0.0000000, 0.0000000, 0.0000000  4
+Atom:     O   Position: 1.9444779, 1.9444779, 0.0000000  4
+Atom:     O   Position: 0.0000000, 1.9444779, 1.9444779  4
+Atom:     O   Position: 1.9444779, 0.0000000, 1.9444779  4
+total_moment            23.333734, 23.333734, 23.333734
+
+
+FE                      X          Y          Z          Normal charge
+Atom:     Ti  Position: 1.9444779, 1.9444779, 2.0444779  4
+Atom:     Pb  Position: 0.0000000, 0.0000000, 0.0000000  4
+Atom:     O   Position: 1.9444779, 1.9444779, 0.0000000  4
+Atom:     O   Position: 0.0000000, 1.9444779, 1.9444779  4
+Atom:     O   Position: 1.9444779, 0.0000000, 1.9444779  4
+total_moment            23.333734, 23.333734, 23.733735
+
+diff in z [using ionic position] : (23.733735)-(23.333734) = 0.4 electron*A
+
+-----------------------------------------------------------------------------------
+Using Wanneir centre:
+Total polarization: (P(ION)+P(ELECT))/(cell_volume) = 0.6728 electron*A / 58.8165 A^3
+                                                    = 0.11439 C/M^2
+Using WOPP:
+Total polarization: (P(ION)+P(ELECT))/(cell_volume) = 0.6772 electron*A / 58.8165 A^3
+                                                    = 0.11514 C/M^2
+
+* Discrepancy may originates from small numerical error.
+
+Then, take a look at WOPP data:
+In CENT phase:
+Direction=  2 MO_number_i=  3 AO_number_m=  6  [ 0, 0, 0] AO_number_n=  6 [ 0, 0, 0] WOPP=  -0.182875
+Direction=  2 MO_number_i=  3 AO_number_m=  6  [ 0, 0,-1] AO_number_n=  6 [ 0, 0,-1] WOPP=   0.182875
+
+In FE phase:
+Direction=  2 MO_number_i=  3 AO_number_m=  6  [ 0, 0, 0] AO_number_n=  6 [ 0, 0, 0] WOPP=  -0.101117
+Direction=  2 MO_number_i=  3 AO_number_m=  6  [ 0, 0,-1] AO_number_n=  6 [ 0, 0,-1] WOPP=   0.280398
+
+Obviously, after distortion, AO #6 in [ 0, 0,-1] cell contributes more to the MO #3 than AO #6 in the home cell.
+
+===================================================================================
+
 Additional:
 1. plot wanneir wavefunction and check if you can get the wannier plot in (http://dx.doi.org/10.1039/b918890h)

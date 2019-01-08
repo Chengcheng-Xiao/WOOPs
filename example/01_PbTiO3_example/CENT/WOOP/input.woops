@@ -1,5 +1,5 @@
-readmode = False
-cal=WOOP
+readmode = True
+cal=WOPP
 num_MO=10
 num_AO=18
 num_kpts=216
